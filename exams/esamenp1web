@@ -1,0 +1,74 @@
+Parcial I parte I 
+Programación Web
+
+I. Instrucciones: Leer detalladamente los reactivos y responder de manera correcta lo solicitado en los reactivos, Evidenciar en plataforma
+
+1. Dibuje un arbol con la estructura basica de un proyecto y una aplicación de Django
+demo
+├── db.sqlite3
+├── demo
+│   ├── asgi.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   │ ├── __init__.cpython-36.pyc
+│   │ ├── settings.cpython-36.pyc
+│   │ ├── urls.cpython-36.pyc
+│   │ └── wsgi.cpython-36.pyc
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── home
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │ ├── 0001_initial.py
+│   │ ├── __init__.py
+│   │ └── __pycache__
+│   │     ├── 0001_initial.cpython-36.pyc
+│   │     └── __init__.cpython-36.pyc
+│   ├── models.py
+│   ├── __pycache__
+│   │ ├── admin.cpython-36.pyc
+│   │ ├── __init__.cpython-36.pyc
+│   │ ├── models.cpython-36.pyc
+│   │ └── views.cpython-36.pyc
+│   ├── tests.py
+│   └── views.py
+├── manage.py
+└── templates
+    └── home
+        └── index.html
+
+8 directories, 26 files
+
+2. Mencione tres argumentos que gestiona el comando manage.py
+    • iniciar el servidor
+$ python manage.py runserver
+    • iniciar una aplicación
+          q$ python manage.py startapp home
+    • registrar las migraciones de los modelos y para sincronizarlos
+      $ python manage.py makemigrations
+      $ python manage.py migrate
+
+3. Explique la diferencia de utilizar urls global y urls local
+4. Escriba un patron de url para una vista basada en funcion
+5. Escriba un patron de url para una vista basada en clase
+
+6. Escriba el comando para hacer un proyecto en Django
+$ django-admin.py startproject demo
+
+7. Escriba el comando para hacer una aplicación en Django
+$ python manage.py startapp home
+
+8. Mencione para que sirve el archivo Settings.py
+para dar de alta una aplicación, se usa también para guardar los templates
+
+9. Escriba el comando para registrar las migraciones de los modelos
+$ python manage.py makemigrations
+
+10. Escriba el comando para sincronizar el modelo con el motor de base de datos.
+$ python manage.py migrate
+
+Nota: este examen fue intencionalmente escrito sin acentos
+
